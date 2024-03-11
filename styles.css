@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato';
+    /* background-color: #e9e7e7; */
+
+}
+
+.container{
+    background-image: url(images/hi.png),url(images/scribble_dark_7.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: 0rem 13rem, 74rem 20rem;
+    background-size: 33%, 6.5%;
+   overflow: hidden;
+    padding-top: 2rem;
+   padding-bottom: 1rem;
+
+}
+
+
+.intro-content{
+    padding-bottom: 7rem;
+    
+}
+
+
+.header{
+    padding: 1rem ;
+    column-count: 2;
+    width: 85%;
+    margin: auto;
+}
+
+.rightheader{
+    float: right;
+}
+
+.leftheader a{
+    padding: 1.5rem;
+    font-weight: 300;
+}
+
+.contactbutton{
+    padding: 0.35rem 1rem 0.35rem 1rem;
+    background-color: white;
+    position: relative;
+    transform: translate(0,-20%);
+    border: 2px solid black;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+.leftintro{
+    float: left;
+    padding-top: 0.4rem;
+    
+}
+
+.rightintro{
+    float: right    ;
+}
+
+
+.intropart{
+    
+   width: 82%;
+   margin: auto;
+   overflow: hidden;
+   margin-top: 2rem;
+
+}
+
+.introheading h1{
+    font-family: "Cardo", serif;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1;
+
+
+}
+.leftintro .rightintro{
+    
+    
+}
+
+.rightintro img{
+    width: 36rem;
+    height: 21.55rem ;
+}
+
+.intropara{
+    padding-top: 1.1rem;
+    padding-bottom: 1.8rem;
+}
+
+.intropara p{
+    font-size: 13px;
+}
+.reserve{
+    background-color: black;
+    color: white;
+    border: black;
+    font-weight: 900;
+    padding:7px 21px 7px 21px ;
+}
+
+#imagescribble{
+    position: absolute;
+    width: 33rem;
+    height: 24rem;   
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.memorycard{
+    padding-left: 20rem;
+    padding-top: 3rem;
+        padding-right: 20rem;
+        padding-bottom: 3rem;
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.memorypara{
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.heading h1{
+    font-family: "Cardo", serif;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+
+.memorycard{
+    background-image: url(images/scribble_light_3.png), url(images/scribble_light_2.png);
+    background-repeat: no-repeat , no-repeat;
+    background-position: 0% 20% , 100% 80%;
+    background-size: 30% 40% , 34% 27%;
+    
+}
+.memorypara p{
+    font-family: 'lato';
+    font-size: small;
+    line-height: 1.25;
+    
+}
+
+.blogbutton{
+    padding-top:0.75rem;
+    color: white;
+    padding: 0.5rem 2.5rem;
+
+}
+
+.blogbutton button{
+    background-color: black;
+    color: white;
+    padding: 0.4rem 2rem ;
+    border: 2px solid white;
+}
+
+
+.topplaces{
+    
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    margin: 0 auto;
+    height: 100vh;
+    padding-left: 5.8rem;
+    padding-right: 5.8rem;
+    background-image: url(images/scribble_dark_6.png) , url(images/scribble_dark_5.png);
+   
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% , 100% 86%;
+    background-size: 3%;
+    
+}
+
+.image-heading h1{
+    font-family: "Cardo", serif;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.imagepara{
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.card-image img{
+    height: 13rem;
+    width: 20rem;
+}
+
+
+.linebreak{
+    margin-top: 1.2rem;
+    margin-bottom: 0.7rem;
+    height: 3px;
+    background-color: black;
+    width: 4rem;
+}
+
+.card{
+    display: inline-block;
+}
+
+
+.hidden-gems{
+    height: 100vh;
+   
+     padding-top:8rem ;
+     padding-right:6rem;
+     padding-left:6rem;
+     padding-bottom:6rem;
+     background-image: url(images/scribble_dark_4.png),url(images/scribble_lightest.png);
+     background-repeat: no-repeat ;
+     background-position: 9% 92% , 100% 0%;
+      background-size: 23rem , 14rem  40rem; 
+     
+
+
+}
+
+
+.aeroplane img{
+    padding-left: 31rem;
+    padding-bottom: 2rem;
+}
+
+.heading-gems h1{
+    font-family: "Cardo", serif;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+    
+}
+
+.heading-gems h1 i u {
+    font-family: "Cardo", serif;
+    text-align: center;
+}
+
+subheading-gem h4{
+    font-family: sans-serif;
+    font-size: large;
+    
+
+}
+
+.subheading-gem{
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: 900;
+    font-size: large;
+
+}
+
+.lakes-peaks{
+  
+    height: 100vh;
+    padding-left: 6rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    position: relative;
+
+}
+
+
+
+.storyheading u h1{
+    font-family: "Cardo", serif;
+    padding-bottom: 0rem;
+      font-size: 1.7rem;
+}
+
+.lakesimg img{
+    height: 33rem;
+    width: 26rem;
+}
+
+.lakesimg{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+
+.rightcont{
+   
+    padding-left: 1rem;
+    width: 60%;
+    padding-bottom: 4rem;
+    float: right;
+}
+
+
+.peaksimg img{
+    width: 21rem;
+    height: 15rem;
+
+}
+
+
+
+.storyheading {
+    float: left;
+     padding-bottom: 0rem;
+     
+}
+
+.story{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    
+}
+.storydesc{
+    display: inline-block;
+    padding: 0.3rem 1rem 2rem 2.5rem;
+     
+}
+
+.peaksimg{
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    width: 26rem;
+    margin-bottom: 0rem;
+}
+.imgpeak
+{
+    width: 24vw;
+    height: 40vh;
+    margin-bottom: 0.5rem;
+}
+.storydesc p{
+    padding-bottom: 0.2rem;
+    font-size: 0.7rem;
+}
+
+.br{
+    padding: 0.5rem;
+}
+
+
+
+.straight{
+    width: 6rem;
+    position: relative;
+    background-color: black;
+    height: 1.5px;
+}
+
+.arrow{
+    position: absolute;
+    top: 85vh;
+    left: 80vw;
+}
+
+/* top-10px 68 137 */
+
+.slants{
+    position: absolute;
+    width: 2rem;
+    background-color: black;
+    height: 1.5px;
+    top: -10px;
+    left:68px ;
+    transform: rotate(-137deg);
+}
+
+.slantstwo
+{
+    position: absolute;
+    width: 2rem;
+    background-color: black;
+    height: 1.5px;
+    top: 12px;
+    left:68px ;
+    transform: rotate(-47deg);
+}
+
+
+.nextdestination{
+    height: 100vh;
+  
+    padding-top: 4rem;
+    background-color: black;
+    color: white;
+    background-image: url(images/scribble_light.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: 25%
+    
+    
+}
+
+.left-content{
+    float: left;
+    width: 40%;
+    
+  
+}
+
+
+.right-content{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.cliffimage{
+   width: 56%;
+   height: 86%;
+   float: right;
+   
+}
+
+.cliffheading h1{
+    font-family: "Cardo", serif;
+    line-height: 1;
+    padding-left: 4.5rem;
+    font-size: 2.5rem;
+}
+
+.cliffheading{
+    padding-bottom: 1rem;
+}
+
+.cliffsubtext{
+    font-size: 0.85rem;
+}
+.cliffpara{
+    padding: 2rem 4.5rem ;
+}
+
+.subheadingcliff{
+    padding-bottom: 1rem;
+}
+
+
+
+
+.funtasks
+{
+  height: 100vh;
+ 
+  padding: 5rem 4rem 6rem 3rem;
+
+}
+
+.taskimage{
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+
+.tasklist{
+   float: left;
+   width: 65%;
+   padding-left: 3.5rem;
+   padding-right: 3rem;
+}
+
+.taskheading{
+    padding-bottom: 4rem;
+}
+.taskheading h1{
+    font-family: "Cardo", serif;
+    font-size: 4.3rem;
+    line-height: 1;
+    font-weight: 900;
+    
+}
+
+.taskimage img{
+    width: 90%;
+}
+
+.tasksfirst{
+   border-top: 3px solid black;
+   padding-left: 1.5rem;
+   padding-right: 0rem;
+   padding-top:1.2rem ;
+   padding-bottom:1.2rem ;
+   border-bottom: 3px solid black; ;
+   position: relative;
+
+}
+
+.plusimagex{
+    position: absolute;
+    top: 1rem;
+    left: 37.5rem;
+    bottom: 2rem;
+    
+
+}
+.plusimagey{
+    position: absolute;
+    top: 1.2rem;
+    left: 37rem;
+    bottom: 0rem;
+    transform: rotate(90deg);
+
+}
+
+.plusimagex img{
+    width: 70%;
+}
+
+.plusimagey img{
+    width: 60%;
+}
+
+
+
+/* two */
+
+.taskstwo{
+
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+    padding-top:1.2rem ;
+    padding-bottom:1.2rem ;
+    border-bottom: 3px solid black; ;
+    position: relative;
+ 
+ }
+
+
+ .tasksthree{
+
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+    padding-top:1.2rem ;
+    padding-bottom:1.2rem ;
+    border-bottom: 3px solid black; ;
+    position: relative;
+ 
+ }
+
+
+
+ .tasksfour{
+
+    padding-left: 1.5rem;
+    padding-right: 0rem;
+    padding-top:1.2rem ;
+    padding-bottom:1.2rem ;
+    border-bottom: 3px solid black; ;
+    position: relative;
+ 
+ }
+
+.slide{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 4.5rem;
+    height: 2.9rem;
+    top: 50vh;
+    left: 2.9rem;
+    padding-left: 8px;
+    padding-top: 7px;
+    background-color: white;
+}
+
+.slide2{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 4.5rem;
+    height: 2.9rem;
+    top: 50vh;
+    right: 2.2rem;
+    padding-left: 8px;
+    padding-top: 7px;
+    background-color: white;
+}
+
+.slide2 img{
+    height: 2px;
+    width: 2.6rem;
+    padding-left: 1rem;
+}
+
+
+.slide img{
+    height: 2px;
+    width: 2.6rem;
+    padding-left: 1rem;
+}
+
+.slantslide2 img{
+    height: 1rem;
+    width: 1.6rem;
+    top: 0.9rem;
+    left: 1.7rem;
+    padding-left: 0.8rem;
+    position: absolute;
+}
+
+.slantslide img{
+    height: 1rem;
+    width: 1.6rem;
+    top: 0.9rem;
+    padding-left: 0.8rem;
+    position: absolute;
+    
+}
+
+
+
+
+ .reviews{
+    height: 100vh;
+    position: relative;
+    background-image: url(images/scribble_dark_2.png),url(images/scribble_dark_3.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0% , 98% 98%;
+    background-size: 30% 20% ,25% 10% ;
+ }
+
+ .reviewheading{
+    padding: 0.5rem 0.5rem 0.8rem 0.5rem ;
+    text-align: center;
+ }
+ .reviewheading h1 b{
+    font-family: "Cardo", serif;
+    text-align: center;
+    font-size: 3rem;
+    
+ }
+
+.reviewimg{
+    text-align: center;
+    padding-top: 2.8rem;
+}
+
+ .reviewcard{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 25%;
+    margin-left: 5rem;
+    display: inline-block;
+ }
+
+ .reviewpara{
+    text-align: center;
+    padding-bottom: 3.25rem;
+ }
+
+
+ .email-form{
+    height: 100vh;
+    
+ }
+
+ .formimage img{
+  
+    float: right;
+    width: 51%;
+    height: 96vh;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    
+    
+ }
+
+ .form{
+    float: left;
+    width: 45%;
+   padding-left: 7rem;
+ }
+
+ form input , form textarea , form button{
+    display: block;
+    margin-bottom: 10px;
+ }
+
+ form input{
+    width: 78%;
+    height: 3.2rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+ }
+
+ form textarea {
+    width: 78%;
+  
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+ }
+
+ form button{
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 3px;
+    height: 3rem;
+    width: 22rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+ }
+
+ .form h1
+ {
+    padding-left: 0rem;
+    font-family: "Cardo", serif;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+ }
+
+ .formimage{
+    padding-right: 5.5rem;
+    
+    
+ }
+ 
+
+ .footerd
+ {
+    height: 75vh;
+    padding-bottom: 8rem;
+     background-color: grey;
+
+     background-image: url(images/scribble_dark.png);
+     background-repeat: no-repeat;
+     background-position: 0% 98% ;
+     background-size: 20% 25%;
+
+ }
+
+.leftfooter{
+    width: 30%;
+    padding-top: 3rem;
+    
+}
+
+
+ .leftfooter h1{
+    font-family: "Cardo", serif;
+    font-size: 3rem;
+    padding-left: 5rem;
+    
+ }
+
+ .leftfooter , .rightfooter{
+    display: inline-block;
+    vertical-align: top;
+ }
+
+ .listcontent{
+    column-count: 4;
+    padding-bottom: 3rem;
+ }
+
+ .listcontent div{
+    padding-bottom: 1rem;
+ }
+
+ .rightfooter{
+    width: 60vw;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+ }
+
+ .rightbottom{
+    padding-top:0; 
+    padding-left: 3rem;
+ }
+
+ .righttop h3{
+    font-family: "Cardo", serif;
+    font-weight: 900;
+    padding-bottom: 1rem;
+    
+    
+ }
